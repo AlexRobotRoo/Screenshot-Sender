@@ -13,14 +13,8 @@ import static java.lang.Thread.sleep;
 public class Main {
     public static void main(String[] args) {
 
-
         MyThread thread = new MyThread();
         thread.start();
-        /*try {
-            sleep(8000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }*/
 
     }
 }
